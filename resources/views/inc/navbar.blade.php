@@ -36,11 +36,12 @@
                   </a>
 
                   <ul class="dropdown-menu" role="menu">
+                      <li><a href="/home">Tableau de bord</a></li>
                       <li>
                           <a href="{{ route('logout') }}"
                               onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
-                              Logout
+                              Deconnexion
                           </a>
 
                           <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
